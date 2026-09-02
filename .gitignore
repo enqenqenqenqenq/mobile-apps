@@ -1,0 +1,52 @@
+## Android Studio & Gradle
+.gradle/
+build/
+captures/
+local.properties
+.idea/
+*.iml
+.cxx/
+*.apk
+*.aab
+*.dex
+
+## Visual Studio Code / JetBrains
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+## Flutter / React Native (if used)
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+## OS & temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+## AI & local assignment inputs (never commit or push to remote)
+_tasks/
+_raw/
+_prompts/
+**/_tasks/
+**/_raw/
+**/_prompts/
+*.prompt
+*.prompt.md
+## AI system prompts & agent instructions (never commit to git)
+AGENTS.md
+GEMINI.md
+.agents/
+.agent/
+.cursorrules
+## Local defense notes & cheatsheets (hidden from git & teachers)
+_defense.md
+*_defense.md
+_cheatsheet.md
+_*.md
