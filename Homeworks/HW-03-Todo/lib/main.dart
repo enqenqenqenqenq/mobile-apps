@@ -40,10 +40,10 @@ class TodoListScreen extends StatefulWidget {
 
 class _TodoListScreenState extends State<TodoListScreen> {
   final List<TodoItem> _tasks = [
-    TodoItem(title: 'Сделать домашнее задание по мобилкам', isCompleted: true),
-    TodoItem(title: 'Повторить виджеты StatelessWidget и StatefulWidget'),
-    TodoItem(title: 'Разобраться с управлением состоянием setState'),
-    TodoItem(title: 'Подготовиться к защите лабораторных'),
+    TodoItem(title: 'Покаяться', isCompleted: true),
+    TodoItem(title: 'Покаяться'),
+    TodoItem(title: 'Покаяться'),
+    TodoItem(title: 'Суд божий'),
   ];
 
   final TextEditingController _taskController = TextEditingController();
